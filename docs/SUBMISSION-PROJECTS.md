@@ -1,6 +1,6 @@
 # Projects submission material
 
-**READY FOR PROJECTS SUBMISSION.** Not submitted. Owner supplies real repository/demo URLs after separately authorized publication.
+**READY FOR PROJECTS SUBMISSION.** Public repository: https://github.com/halihalibt/handshake-map-genlayer. GitHub Pages demo and GenLayer form submission remain pending.
 
 Canonical Development / Validation / Submission Network: Stable GenLayer Studionet. Chain ID: 61999. Contract: `0x0Dcb5F452412aB73b32149ad1e082533D929Ed73`. Final authoritative evidence is the accepted Phase 5 Studionet evidence.
 
@@ -29,7 +29,7 @@ After finalized success, the Matrix shows Equivalent, Compatible, Conflict and U
 Vite + React + TypeScript + genlayer-js + plain CSS. Local React state/hooks, injected EIP-1193 wallet, explicit network switching and friendly errors. No backend, database, serverless business logic, router, WalletConnect, global state framework or paid AI API. Static relative assets and /?w links work at a repository prefix. Fakes are used in tests and development preview only, outside the production import graph.
 
 ## Demo
-Follow docs/DEMO.md: 00:00 introduction; 00:20 A Create & Seal; 00:50 B Respond & Seal; 01:20 Reconcile; 02:10 Matrix/Core/Conflict; 02:40 Reload. It specifies accounts, inputs, buttons and expected lifecycle observations using the frozen 3×3 Website Delivery reviewer script. No new 3×3 live result is claimed. A compact already-verified 2×2 replay is available at canonical Studionet Workspace #1 with persisted [3,0,0,1]. Public demo URL: not yet published/provided; do not invent a GitHub owner or link.
+Follow docs/DEMO.md: 00:00 introduction; 00:20 A Create & Seal; 00:50 B Respond & Seal; 01:20 Reconcile; 02:10 Matrix/Core/Conflict; 02:40 Reload. It specifies accounts, inputs, buttons and expected lifecycle observations using the frozen 3×3 Website Delivery reviewer script. No new 3×3 live result is claimed. A compact already-verified 2×2 replay is available at canonical Studionet Workspace #1 with persisted [3,0,0,1]. Public demo URL: pending GitHub Pages publication; add the actual URL only after the workflow succeeds.
 
 ## Testing
 Fresh final-package frontend regression: 113 PASS / 0 FAIL / 0 skipped; production build PASS. Wallet, wrong network, permission/form/seal, lifecycle/result, history, reload, original tx resume/no resend, create duplicate prevention, one waiter, 429 bounds and errors are covered. Accepted real production Studionet E2E includes A/B history ordering, reconciliation reload/resume, finalized matrix and desktop/mobile screenshots. Fixture-only viewport states are labeled. Contract suite: 139 PASS / 0 FAIL. No new network success is claimed during local packaging.
@@ -37,7 +37,7 @@ Fresh final-package frontend regression: 113 PASS / 0 FAIL / 0 skipped; producti
 Canonical Development / Validation / Submission Network: Stable GenLayer Studionet, Chain ID 61999, Contract `0x0Dcb5F452412aB73b32149ad1e082533D929Ed73`. Phase 5 finalized consensus and persistent state are authoritative. See docs/EVIDENCE-INDEX.md.
 
 ## Repository
-Repository name: `handshake-map-genlayer`. Add the actual public GitHub repository URL and GitHub Pages URL to the GenLayer submission form after publication. `docs/CONTRACT-SOURCE.md` records canonical source provenance and byte-equivalence without inventing a hosted commit URL.
+Repository: https://github.com/halihalibt/handshake-map-genlayer. Add the actual GitHub Pages URL to the GenLayer submission form only after publication succeeds. `docs/CONTRACT-SOURCE.md` records canonical source provenance and byte-equivalence.
 
 Canonical Development / Validation / Submission Network: Stable GenLayer Studionet, Chain ID 61999, Contract `0x0Dcb5F452412aB73b32149ad1e082533D929Ed73`. Phase 5 finalized consensus and persistent state are authoritative. See docs/EVIDENCE-INDEX.md.
 
