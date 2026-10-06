@@ -1,0 +1,6 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> handshake-map-genlayer@1.0.0 test
+> vitest run --reporter=json --outputFile=docs/phase6/final-frontend-results.json
+
+JSON report written to /workspace/scratch/be511b75f822/ClauseMesh-Phase6/handshake-map-genlayer/docs/phase6/final-frontend-results.json
