@@ -1,6 +1,6 @@
-# GitHub Pages — prepared, not published
+# GitHub Pages — workflow prepared; publication pending
 
-No external repository creation/push/settings change or public deployment has been executed. Activate only after owner authorization. Repo name: `handshake-map-genlayer`; no owner or live URL is invented.
+The public repository now exists at https://github.com/halihalibt/handshake-map-genlayer. The Pages workflow is installed but has not been run; no live demo URL is claimed yet.
 
 The prepared workflow is manual (`workflow_dispatch`) and publishes only built `dist`. It does not automatically deploy when source is pushed. It uses official checkout/setup-node/configure-pages/upload-pages-artifact/deploy-pages actions, pinned Node 24.19.0 and npm 11.9.0, `npm ci`, `npm test`, `npm run build`. No personal API token, wallet credential or backend configuration is needed.
 
