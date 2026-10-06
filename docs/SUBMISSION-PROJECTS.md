@@ -1,5 +1,15 @@
 # Projects submission material
 
+## Fastest reviewer verification: read-only Workspace #1
+
+Live Demo: https://halihalibt.github.io/handshake-map-genlayer/
+
+Verified Onchain Example: https://halihalibt.github.io/handshake-map-genlayer/?w=1
+
+Workspace #1 is an existing finalized Studionet example, not seeded frontend demo data. No wallet is required to inspect it. The Home evidence card is recorded public navigation metadata; opening the result runs the existing `get_workspace(1)` read.
+
+Open Home → View Verified Result. Verify RECONCILED, CSV conflict A1/B1, monthly-invoice agreement A2/B2 and matrix `[3,0,0,1]`. Reload the same URL. This path submits no transaction; Create → Respond → Reconcile remains unchanged.
+
 **READY FOR PROJECTS SUBMISSION.** Public repository: https://github.com/halihalibt/handshake-map-genlayer. Live demo: https://halihalibt.github.io/handshake-map-genlayer/. GenLayer form submission remains pending.
 
 Canonical Development / Validation / Submission Network: Stable GenLayer Studionet. Chain ID: 61999. Contract: `0x0Dcb5F452412aB73b32149ad1e082533D929Ed73`. Final authoritative evidence is the accepted Phase 5 Studionet evidence.
@@ -40,4 +50,5 @@ Canonical Development / Validation / Submission Network: Stable GenLayer Studion
 Repository: https://github.com/halihalibt/handshake-map-genlayer. Live demo: https://halihalibt.github.io/handshake-map-genlayer/. `docs/CONTRACT-SOURCE.md` records canonical source provenance and byte-equivalence.
 
 Canonical Development / Validation / Submission Network: Stable GenLayer Studionet, Chain ID 61999, Contract `0x0Dcb5F452412aB73b32149ad1e082533D929Ed73`. Phase 5 finalized consensus and persistent state are authoritative. See docs/EVIDENCE-INDEX.md.
+
 

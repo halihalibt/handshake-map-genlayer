@@ -277,6 +277,25 @@ export default function App({
                 every clause pair into a shared Handshake Map.
               </p>
             </section>
+            <section className="panel verified-example" aria-labelledby="verified-title">
+              <p className="eyebrow">Verified Onchain Example</p>
+              <div className="verified-heading"><h2 id="verified-title">Workspace #1</h2><span className="status-badge">RECONCILED</span></div>
+              <p>Real finalized ClauseMesh workspace on GenLayer Stable Studionet.</p>
+              <ul className="verified-stats" aria-label="Verified result counts"><li>1 Agreement</li><li>1 Conflict</li><li>2 Unrelated</li></ul>
+              <p className="verified-consensus">FINALIZED / MAJORITY_AGREE / SUCCESS</p>
+              <p>5 Initial Validators · 3 AGREE / 2 IDLE</p>
+              <dl className="verified-metadata">
+                <div><dt>Network</dt><dd>Studionet · Chain ID 61999</dd></div>
+                <div><dt>Contract</dt><dd><code title="0x0Dcb5F452412aB73b32149ad1e082533D929Ed73">0x0Dcb…Ed73</code></dd></div>
+                <div><dt>Reconciliation</dt><dd><code title="0x73468ab79503a1151eddd3ec0c31af5c4836b5eb4b902325dbdbb71d97a53d0c">0x73468…53d0c</code></dd></div>
+              </dl>
+              <a className="verified-link" href="?w=1" onClick={(e) => { e.preventDefault(); navigate(1); }}>View Verified Result →</a>
+              <p className="muted verified-note">Recorded public evidence. Open the result to read its persistent state from the Contract. No wallet required.</p>
+            </section>
+            <section className="how-it-works" aria-labelledby="how-title">
+              <h2 id="how-title">How it works</h2>
+              <ol><li>Party A seals requirements</li><li>Party B seals response</li><li>GenLayer validators reconcile every clause pair</li><li>The accepted Relation Matrix persists onchain</li></ol>
+            </section>
             <section className="panel">
               <h2>Create Workspace</h2>
               <form
@@ -332,7 +351,8 @@ export default function App({
                 <p role="status">Reading workspace history</p>
               ) : !history.length ? (
                 <p className="muted">
-                  No workspaces yet. Create your first semantic handshake.
+                  No workspaces yet. My Workspaces only shows workspaces associated with the currently connected wallet.
+                  <br />Want to inspect a verified example?{" "}<a href="?w=1" onClick={(e) => { e.preventDefault(); navigate(1); }}>Open Workspace #1</a>.
                 </p>
               ) : (
                 <ul className="history">

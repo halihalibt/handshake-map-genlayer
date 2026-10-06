@@ -377,7 +377,7 @@ describe("F08/F09 recovery and aggregate history", () => {
     );
     mount(p);
     await screen.findByRole("link", { name: /Third/ });
-    expect(screen.getAllByRole("link").map((l) => l.textContent)).toEqual([
+    expect(within(document.querySelector(".history") as HTMLElement).getAllByRole("link").map((l) => l.textContent)).toEqual([
       "Third#3 · RECONCILED",
       "Second#2 · READY",
       "First#1 · WAITING_FOR_B",
@@ -453,7 +453,7 @@ describe("F10/F11 errors and manual bounded recovery", () => {
       screen.getByRole("button", { name: "Connect Wallet" }),
     );
     await screen.findByText(
-      "No workspaces yet. Create your first semantic handshake.",
+      /No workspaces yet. My Workspaces only shows workspaces associated with the currently connected wallet/,
     );
     expect(
       screen.getByText(
@@ -582,7 +582,7 @@ describe("Phase 5 history root-cause regression", () => {
     vi.mocked(p.contract.get_workspace_summaries).mockResolvedValue(ascending);
     mount(p, new WalletFake(PARTY_B));
     await screen.findByRole("link", { name: /History 2/ });
-    expect(screen.getAllByRole("link").map((link) => link.textContent)).toEqual([
+    expect(within(document.querySelector(".history") as HTMLElement).getAllByRole("link").map((link) => link.textContent)).toEqual([
       "History 2#2 · READY", "History 1#1 · READY",
     ]);
     expect(ascending.map((summary) => summary.id)).toEqual([1, 2]);

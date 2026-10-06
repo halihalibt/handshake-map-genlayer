@@ -461,3 +461,18 @@ th span,
 }
 
 h1, th span { overflow-wrap: anywhere; }
+
+.verified-example { border-left: 4px solid var(--accent); }
+.verified-heading { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.verified-heading h2 { margin: 0; }
+.verified-stats { display: flex; flex-wrap: wrap; gap: .6rem 1.5rem; list-style: none; padding: 0; font-weight: 650; }
+.verified-consensus { font-size: .85rem; font-weight: 650; overflow-wrap: anywhere; }
+.verified-metadata { display: flex; flex-wrap: wrap; gap: .5rem 2rem; font-size: .85rem; }
+.verified-metadata dt { color: #526173; }
+.verified-metadata dd { margin: 0; }
+.verified-link { display: inline-block; padding: .65rem 0; font-weight: 650; }
+.verified-note { font-size: .85rem; }
+.how-it-works { margin: 1.5rem 0; }
+.how-it-works h2 { font-size: 1.1rem; }
+.how-it-works ol { display: grid; grid-template-columns: repeat(4, 1fr); gap: .6rem 2rem; padding-left: 1.3rem; font-size: .9rem; }
+@media (max-width: 700px) { .how-it-works ol { grid-template-columns: 1fr; gap: .6rem; } }

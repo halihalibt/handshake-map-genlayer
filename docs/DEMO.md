@@ -1,5 +1,15 @@
 # Frozen reviewer demo — 2–3 minutes
 
+## Fastest reviewer verification: read-only Workspace #1
+
+Live Demo: https://halihalibt.github.io/handshake-map-genlayer/
+
+Verified Onchain Example: https://halihalibt.github.io/handshake-map-genlayer/?w=1
+
+Workspace #1 is an existing finalized Studionet example, not seeded frontend demo data. No wallet is required to inspect it. The Home evidence card is recorded public navigation metadata; opening the result runs the existing `get_workspace(1)` read.
+
+Open Home → View Verified Result. Verify RECONCILED, CSV conflict A1/B1, monthly-invoice agreement A2/B2 and matrix `[3,0,0,1]`. Reload the same URL. This path submits no transaction; Create → Respond → Reconcile remains unchanged.
+
 This is the frozen 2–3 minute reviewer demo script. It does not add product features. Live consensus latency may exceed the suggested speaking timeline; wait for actual finalization, or label edited waiting time in a recording. Do not claim a predetermined matrix or repeat reconciliation for preferred labels.
 
 ## Before recording

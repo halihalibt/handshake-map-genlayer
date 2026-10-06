@@ -1,5 +1,13 @@
 # Handshake Map — turn two sealed requirement sets into shared state
 
+Live Demo: https://halihalibt.github.io/handshake-map-genlayer/
+
+Verified Onchain Example: https://halihalibt.github.io/handshake-map-genlayer/?w=1
+
+Workspace #1 is an existing finalized Studionet example, not seeded frontend demo data. No wallet is required to inspect it. The Home evidence card is recorded public navigation metadata; opening the result runs the existing `get_workspace(1)` read.
+
+Open Home → View Verified Result. Verify RECONCILED, CSV conflict A1/B1, monthly-invoice agreement A2/B2 and matrix `[3,0,0,1]`. Reload the same URL. This path submits no transaction; Create → Respond → Reconcile remains unchanged.
+
 **A complete static GenLayer product using ClauseMesh · CLAUSEMESH-V1**
 
 Two people can think they agreed while describing different delivery requirements. Handshake Map lets each person seal their own clauses, run GenLayer reconciliation and inspect a persistent Relation Matrix, Agreement Core and Conflict Set. It is a wallet-to-finalized-result product, with no backend or database.
@@ -71,3 +79,4 @@ Read [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), [docs/SUBMISSION-PROJECTS.md]
 
 
 Phase 6 COMPLETE. READY FOR PROJECTS SUBMISSION. Public repository: https://github.com/halihalibt/handshake-map-genlayer. Live demo: https://halihalibt.github.io/handshake-map-genlayer/. GenLayer form submission remains pending.
+
