@@ -17,7 +17,7 @@ Canonical Development / Validation / Submission Network: Stable GenLayer Studion
 1. Canonical Studionet Contract: `0x0Dcb5F452412aB73b32149ad1e082533D929Ed73`.
 2. Real reconciliation: `0x73468ab79503a1151eddd3ec0c31af5c4836b5eb4b902325dbdbb71d97a53d0c`; FINALIZED / MAJORITY_AGREE / SUCCESS; 5 initial Validators, 3 AGREE / 2 IDLE.
 3. Persisted Matrix `[3,0,0,1]`; Agreement Core A2/B2, Conflict Set A1/B1; other pairs unrelated.
-4. Complete production frontend workflow; 113 frontend tests and production build PASS.
+4. Complete production frontend workflow; 118 tests PASS / 0 FAIL / 0 skipped, with production build PASS.
 5. docs/phase5-network/real-browser-evidence.json; finalized-result-dom.txt; history-A.txt; history-B.txt; static-runtime.json.
 6. History Contract [1,2] / frontend [2,1]; reload/manual Resume restores original transaction and persistent Matrix.
 
