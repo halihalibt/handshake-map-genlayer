@@ -1,10 +1,14 @@
 {
-  "result": "REVIEW_REQUIRED",
+  "result": "PASS_AFTER_MANUAL_REVIEW",
+  "automated_scan": "REVIEW_REQUIRED",
+  "manual_review": "PASS",
   "scope": "Curated public Projects repository",
   "files_scanned": 66,
-  "sensitive_findings": [
-    "tests/frontend/integration.test.ts"
-  ],
+  "sensitive_findings": [],
+  "false_positive_review": {
+    "file": "tests/frontend/integration.test.ts",
+    "reason": "The automated pattern scan matched explicit test-only placeholder strings such as SERVER_SECRET_PLACEHOLDER, SERVER_API_PLACEHOLDER, and private_key field names. Manual review confirmed these are synthetic fixtures used to verify secret sanitization; no real credential is present."
+  },
   "contract_source_sha256": "5489c4c66471af9c5bfc5607d8f4640e22ebac0cfca36ce63ee762c038444830",
   "historical_debug_archives_included": false,
   "bradbury_debug_material_included": false,
@@ -12,5 +16,5 @@
   "work_handoff_or_execution_request_files_included": false,
   "node_modules_included": false,
   "private_keys_or_seed_phrases_expected": false,
-  "limitations": "Lightweight pattern scan; not an exhaustive security audit."
+  "limitations": "Automated pattern scan plus manual review of the flagged test fixture; not an exhaustive security audit."
 }
