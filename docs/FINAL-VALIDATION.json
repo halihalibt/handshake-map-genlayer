@@ -1,17 +1,42 @@
 {
-  "contract_tests": {
-    "passed": 139,
-    "failed": 0,
-    "skipped": 0
+  "schema_version": 2,
+  "status": "READY_FOR_PROJECTS_SUBMISSION",
+  "canonical_submission_network": {
+    "name": "Stable GenLayer Studionet",
+    "chain_id": 61999,
+    "contract": "0x0Dcb5F452412aB73b32149ad1e082533D929Ed73",
+    "sdk": "genlayer-js 1.1.8"
   },
-  "frontend_tests": {
-    "passed": 113,
-    "failed": 0,
-    "skipped": 0
+  "current_submission_state": {
+    "commit": "32756652903f978fa35b8ca494778251afb19864",
+    "contract_tests": {
+      "passed": 139,
+      "failed": 0,
+      "skipped": 0
+    },
+    "frontend_tests": {
+      "passed": 118,
+      "failed": 0,
+      "skipped": 0
+    },
+    "typescript_errors": 0,
+    "build": "PASS",
+    "vite_warning": "PASS with the existing non-blocking Vite chunk-size advisory retained.",
+    "pages": {
+      "workflow": "Publish approved static Handshake Map",
+      "run_number": 3,
+      "run_id": 37454614221,
+      "conclusion": "SUCCESS",
+      "build_job": "SUCCESS",
+      "deploy_job": "SUCCESS"
+    },
+    "verified_workspace_1": {
+      "production_query": "?w=1",
+      "real_studionet_read": "PASS",
+      "relation_matrix": [3, 0, 0, 1],
+      "reconciled": true
+    }
   },
-  "build": "PASS",
-  "typescript_errors": 0,
-  "vite_warning": "Main JS chunk 770.71 kB exceeds 500 kB advisory; unchanged product code, no architecture modification",
   "production_runtime": "Real createIntegration -> genlayer-js Studionet, injected wallet",
   "runtime_import_graph": [
     "src/App.tsx",
@@ -27,23 +52,51 @@
     "src/main.tsx",
     "src/styles.css"
   ],
-  "preview_fake_imported_by_production": false,
-  "backend_database_business_server_added": false,
-  "contract_A_B_byte_equal": true,
-  "contract_changed": false,
-  "frontend_production_source_changed": false,
-  "production_assets_same_as_accepted_phase5": true,
-  "production_output_sha256": {
-    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "index.html": "c0a0285b544f67d7ecfceba95a52aa8ef54e08422470acaffebb6e91cb72fb8f",
-    "assets/index-DdvE7SWf.js": "fd4556fe720581e6620f1756f8820372110eb44d57771211ff6068163b6c722e",
-    "assets/ccip-DSIZ_hbo.js": "05bdd5fbccf7f9291674fa7c5d020e8b58b60902a99b03cd20c78672f8bf0b4b",
-    "assets/index-D1CdPYQ7.css": "574f68939dac5ae94e0b4bd08a9200d770d93a176050d31fe04718c8e45f06ab"
+  "submission_integrity": {
+    "preview_fake_imported_by_production": false,
+    "backend_database_business_server_added": false,
+    "contract_A_B_byte_equal": true,
+    "canonical_contract_source_sha256": "5489c4c66471af9c5bfc5607d8f4640e22ebac0cfca36ce63ee762c038444830",
+    "contract_changed_after_phase5": false,
+    "frontend_submission_ux_patch_applied": true,
+    "package_and_lock_unchanged": true,
+    "new_network_transactions_for_submission_patch": 0,
+    "public_github_push": true,
+    "github_pages_published": true,
+    "static_repo_prefix_asset_and_query_url_resolution": "PASS"
   },
-  "package_and_lock_unchanged": true,
-  "static_repo_prefix_asset_and_query_url_resolution": "PASS; no public hosting performed",
-  "new_network_transactions": 0,
-  "public_github_push_or_pages_publication": false,
-  "canonical_submission_network": "Stable GenLayer Studionet",
-  "phase6": "COMPLETE"
+  "authoritative_onchain_evidence": {
+    "source": "Phase 5 accepted Studionet evidence",
+    "deployment_tx": "0xbb4e6c59c6b997eb81e8123178c4e437f6316c9c134241a796b1a838ebb16eeb",
+    "reconcile_tx": "0x73468ab79503a1151eddd3ec0c31af5c4836b5eb4b902325dbdbb71d97a53d0c",
+    "finalization": "FINALIZED",
+    "consensus": "MAJORITY_AGREE",
+    "execution": "SUCCESS",
+    "initial_validators": 5,
+    "votes": {
+      "agree": 3,
+      "idle": 2
+    },
+    "persisted_relation_matrix": [3, 0, 0, 1]
+  },
+  "historical_phase6_baseline": {
+    "note": "Preserved for audit clarity. These values describe the pre-submission-UX Phase 6 baseline, not the current public submission build.",
+    "frontend_tests": {
+      "passed": 113,
+      "failed": 0,
+      "skipped": 0
+    },
+    "frontend_production_source_changed_at_that_time": false,
+    "production_assets_same_as_accepted_phase5_at_that_time": true,
+    "public_github_push_or_pages_publication_at_that_time": false,
+    "production_output_sha256_at_that_time": {
+      ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "index.html": "c0a0285b544f67d7ecfceba95a52aa8ef54e08422470acaffebb6e91cb72fb8f",
+      "assets/index-DdvE7SWf.js": "fd4556fe720581e6620f1756f8820372110eb44d57771211ff6068163b6c722e",
+      "assets/ccip-DSIZ_hbo.js": "05bdd5fbccf7f9291674fa7c5d020e8b58b60902a99b03cd20c78672f8bf0b4b",
+      "assets/index-D1CdPYQ7.css": "574f68939dac5ae94e0b4bd08a9200d770d93a176050d31fe04718c8e45f06ab"
+    }
+  },
+  "phase6": "COMPLETE",
+  "remaining_blocker": null
 }
