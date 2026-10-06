@@ -57,7 +57,7 @@ npm run build
 
 For a locked reproducible installation use `npm ci`. Production output is static `dist/`; no server runtime, backend, database, serverless business logic, paid API or external AI API is needed. The frontend SDK calls GenLayer directly. `src/main.tsx` creates the real integration; fakes under tests/verification and preview fixtures are not production imports.
 
-Current final suite: **113 PASS / 0 FAIL / 0 skipped** (96 frontend, 16 SDK integration, one root-cause history UI regression). Build **PASS**; TypeScript reports no errors. This fresh build emits Vite's non-blocking >500 kB main-chunk advisory; no npm/http-proxy warning occurred in the fresh run (older logs retain historical warnings). Fresh Phase 6 outputs are under `docs/phase6/`.
+Current final suite after the Submission UX Patch: **118 PASS / 0 FAIL / 0 skipped**. Build **PASS**; TypeScript reports no errors. This fresh build emits Vite's non-blocking >500 kB main-chunk advisory; no npm/http-proxy warning occurred in the fresh run (older logs retain historical warnings). Fresh Phase 6 outputs are under `docs/phase6/`.
 
 ## Canonical Contract and observed real E2E
 
