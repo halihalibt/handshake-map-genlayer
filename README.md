@@ -63,9 +63,11 @@ Canonical Development / Validation / Submission Network: Stable GenLayer Studion
 
 [docs/DEMO.md](docs/DEMO.md) is the frozen 2–3 minute reviewer script, with precise A/B switching, sample clauses, buttons, state/hash/finalization and refresh steps. Use the already finalized Studionet `?w=1` as a recorded-state tour; create a fresh demonstration only when explicitly authorized, not just to recapture evidence.
 
-The included manual GitHub Pages workflow builds/uploads only `dist`. Existing Vite relative base `./` supports `/handshake-map-genlayer/` and `/handshake-map-genlayer/?w=1`; no React Router or server rewrite is needed. [docs/GITHUB-PAGES.md](docs/GITHUB-PAGES.md) explains activation and verification; record the actual public URL after deployment.
+Live demo: https://halihalibt.github.io/handshake-map-genlayer/
+
+The included manual GitHub Pages workflow builds/uploads only `dist`. Existing Vite relative base `./` supports `/handshake-map-genlayer/` and `/handshake-map-genlayer/?w=1`; no React Router or server rewrite is needed. [docs/GITHUB-PAGES.md](docs/GITHUB-PAGES.md) records the published Pages deployment.
 
 Read [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), [docs/SUBMISSION-PROJECTS.md](docs/SUBMISSION-PROJECTS.md) and [docs/TESTING.md](docs/TESTING.md). License: MIT.
 
 
-Phase 6 COMPLETE. READY FOR PROJECTS SUBMISSION. Public repository: https://github.com/halihalibt/handshake-map-genlayer. GitHub Pages publication and GenLayer form submission remain pending.
+Phase 6 COMPLETE. READY FOR PROJECTS SUBMISSION. Public repository: https://github.com/halihalibt/handshake-map-genlayer. Live demo: https://halihalibt.github.io/handshake-map-genlayer/. GenLayer form submission remains pending.
