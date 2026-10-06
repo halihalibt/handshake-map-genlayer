@@ -68,4 +68,4 @@ The included manual GitHub Pages workflow builds/uploads only `dist`. Existing V
 Read [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), [docs/SUBMISSION-PROJECTS.md](docs/SUBMISSION-PROJECTS.md) and [docs/TESTING.md](docs/TESTING.md). License: MIT.
 
 
-Phase 6 COMPLETE. READY FOR PROJECTS SUBMISSION. No external publication or form submission performed.
+Phase 6 COMPLETE. READY FOR PROJECTS SUBMISSION. Public repository: https://github.com/halihalibt/handshake-map-genlayer. GitHub Pages publication and GenLayer form submission remain pending.
