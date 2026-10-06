@@ -1,6 +1,6 @@
-# GitHub Pages — workflow prepared; publication pending
+# GitHub Pages — published
 
-The public repository now exists at https://github.com/halihalibt/handshake-map-genlayer. The Pages workflow is installed but has not been run; no live demo URL is claimed yet.
+Public repository: https://github.com/halihalibt/handshake-map-genlayer. Live deployment: https://halihalibt.github.io/handshake-map-genlayer/. The manual Pages workflow has completed successfully.
 
 The prepared workflow is manual (`workflow_dispatch`) and publishes only built `dist`. It does not automatically deploy when source is pushed. It uses official checkout/setup-node/configure-pages/upload-pages-artifact/deploy-pages actions, pinned Node 24.19.0 and npm 11.9.0, `npm ci`, `npm test`, `npm run build`. No personal API token, wallet credential or backend configuration is needed.
 
@@ -10,4 +10,4 @@ Existing Vite `base: './'` is deliberately unchanged. Relative assets resolve fr
 
 Canonical Development / Validation / Submission Network: Stable GenLayer Studionet. Chain ID: 61999. Contract: `0x0Dcb5F452412aB73b32149ad1e082533D929Ed73`. Final authoritative evidence is the accepted Phase 5 Studionet evidence.
 
-Local final npm test/build and relative asset/query checks passed at package preparation time. After publication, run the manual Pages workflow and verify the resulting public URL. Documentation sources: [GitHub Pages custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages), [setup-node](https://github.com/actions/setup-node). A live URL should only be claimed after the Pages workflow completes successfully.
+Local final npm test/build and relative asset/query checks passed at package preparation time. The GitHub Actions Pages workflow subsequently completed successfully and published https://halihalibt.github.io/handshake-map-genlayer/. Documentation sources: [GitHub Pages custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages), [setup-node](https://github.com/actions/setup-node).
