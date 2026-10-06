@@ -11,4 +11,4 @@ Canonical Development / Validation / Submission Network: Stable GenLayer Studion
 5. docs/phase5-network/real-browser-evidence.json; finalized-result-dom.txt; history-A.txt; history-B.txt; static-runtime.json.
 6. History Contract [1,2] / frontend [2,1]; reload/manual Resume restores original transaction and persistent Matrix.
 
-Public repository: https://github.com/halihalibt/handshake-map-genlayer. GitHub Pages demo URL remains pending until the prepared workflow is explicitly run and succeeds. Historical evidence is excluded from this core index.
+Public repository: https://github.com/halihalibt/handshake-map-genlayer. Live GitHub Pages demo: https://halihalibt.github.io/handshake-map-genlayer/. Pages deployment succeeded through the repository's manual GitHub Actions workflow. Historical evidence is excluded from this core index.
